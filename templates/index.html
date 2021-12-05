@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FULL TEXT SEARCH</title>
+</head>
+<body>
+<form name="test" method="post">
+    <p><b>Введите строку для поиска:</b><br>
+    <input type="text" name="text" size="40"><br>
+    <b>Выберете логический оператор [OR]:</b><br>
+        <input type="radio" id="choiceAND" name="operator" value="AND">
+        <label for="choiceAND">AND</label>
+        <input type="radio" id="choiceOR" name="operator" value="OR">
+        <label for="choiceOR">OR</label><br>
+
+        <b>Введите количество в результатов: </b><br>
+        <select id="selectval">
+            <option selected value="5">5</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+        </select><br>
+        <input type="submit" value="Искать">
+        <input type="reset" value="Очистить">
+    </p>
+
+
+</form>
+</body>
+</html>
