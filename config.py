@@ -10,4 +10,4 @@ auth = (login, password)
 url = "http://" + host + ":" + port + "/solr/" + name_collection
 
 # base folder
-home_dir = "/"
+home_dir = "/"  # изменить на безопасную папку
